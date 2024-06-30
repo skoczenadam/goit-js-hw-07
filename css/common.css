@@ -14,5 +14,12 @@ body {
 }
 
 .gallery {
-  
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 30px;
+}
+
+img {
+  max-width: 300px;
 }
